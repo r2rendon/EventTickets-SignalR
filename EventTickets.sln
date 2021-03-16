@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F332A567-139E-416E-97CB-6B4BC225FCCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7075B22F-B2A9-4F13-832C-937C3008E419}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventTickets.EventCatalog", "src\EventTickets.EventCatalog\EventTickets.EventCatalog.csproj", "{27B68D31-C5DC-46FE-B6A1-8049CA83062F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventTickets.ShoppingBasket", "src\EVentTickets.ShoppingBasket\EventTickets.ShoppingBasket.csproj", "{A5F9739E-E8DF-4FD9-A579-21CB7DE9024D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventTickets.Payment", "src\EventTickets.Payment\EventTickets.Payment.csproj", "{F9602667-DA96-4E69-B0F8-514080ECDA0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventTickets.Gateway", "src\EventTickets.Gateway\EventTickets.Gateway.csproj", "{66ED97AF-D669-483F-8863-76885B350323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventTickets.UI", "src\EventTickets.UI\EventTickets.UI.csproj", "{795C722A-5074-4237-B03C-0CFCF68128DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27B68D31-C5DC-46FE-B6A1-8049CA83062F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B68D31-C5DC-46FE-B6A1-8049CA83062F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B68D31-C5DC-46FE-B6A1-8049CA83062F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B68D31-C5DC-46FE-B6A1-8049CA83062F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F9739E-E8DF-4FD9-A579-21CB7DE9024D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F9739E-E8DF-4FD9-A579-21CB7DE9024D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F9739E-E8DF-4FD9-A579-21CB7DE9024D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F9739E-E8DF-4FD9-A579-21CB7DE9024D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9602667-DA96-4E69-B0F8-514080ECDA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9602667-DA96-4E69-B0F8-514080ECDA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9602667-DA96-4E69-B0F8-514080ECDA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9602667-DA96-4E69-B0F8-514080ECDA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66ED97AF-D669-483F-8863-76885B350323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66ED97AF-D669-483F-8863-76885B350323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66ED97AF-D669-483F-8863-76885B350323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66ED97AF-D669-483F-8863-76885B350323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795C722A-5074-4237-B03C-0CFCF68128DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795C722A-5074-4237-B03C-0CFCF68128DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795C722A-5074-4237-B03C-0CFCF68128DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795C722A-5074-4237-B03C-0CFCF68128DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27B68D31-C5DC-46FE-B6A1-8049CA83062F} = {F332A567-139E-416E-97CB-6B4BC225FCCE}
+		{A5F9739E-E8DF-4FD9-A579-21CB7DE9024D} = {F332A567-139E-416E-97CB-6B4BC225FCCE}
+		{F9602667-DA96-4E69-B0F8-514080ECDA0D} = {F332A567-139E-416E-97CB-6B4BC225FCCE}
+		{66ED97AF-D669-483F-8863-76885B350323} = {F332A567-139E-416E-97CB-6B4BC225FCCE}
+		{795C722A-5074-4237-B03C-0CFCF68128DE} = {F332A567-139E-416E-97CB-6B4BC225FCCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3976229-3B93-4DE8-87AE-B5F702BBB786}
+	EndGlobalSection
+EndGlobal
